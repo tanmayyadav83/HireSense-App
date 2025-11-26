@@ -1,9 +1,9 @@
-##🚀 HireSense – AI-Powered Smart Job Portal
+# HireSense – AI-Powered Smart Job Portal
 
 HireSense is an intelligent job portal that connects Job Seekers and Employers, enhanced with AI-powered resume parsing and match scoring.
 It simplifies recruitment by automatically analyzing resumes and generating a match percentage using ApprentAI's Resume Parsing API.
 
-#📌 Table of Contents
+# Table of Contents
 
 Introduction
 
@@ -15,7 +15,7 @@ How to Run
 
 Project Screenshots
 
-#🧾 Introduction
+# Introduction
 
 HireSense is a modern job portal designed to improve hiring using artificial intelligence.
 It provides three roles:
@@ -29,7 +29,8 @@ Admin – Manages users, jobs, and platform activity.
 The system uses AI resume parsing to extract skills, experience, and education from uploaded resumes, then matches it with job requirements to calculate a match score.
 This score helps employers quickly identify the best candidates.
 
-#⭐ Key Features
+# Key Features
+
 👨‍💼 Job Seeker
 
 Register with email OTP verification
@@ -72,7 +73,7 @@ Extracts: skills, projects, education, experience, summary
 
 Computes AI Match Score (%)
 
-#🛠️ Tech Stack
+# Tech Stack
 Frontend
 
 HTML
