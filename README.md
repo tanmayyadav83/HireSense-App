@@ -104,7 +104,7 @@ AI Integration:
 
 # How to Run Locally
 1. Clone the Repository
-git clone https://github.com/your-username/HireSense.git
+https://github.com/tanmayyadav83/HireSense-App.git
 
 2. Import Project in Eclipse/IntelliJ
 
