@@ -140,5 +140,15 @@ http://localhost:2025/hiresenseapp/
 
 # Screenshots:
 
-![login]https://raw.githubusercontent.com/tanmayyadav83/HireSense-App/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140416.png
-![picture]https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140416.png
+![login](https://raw.githubusercontent.com/tanmayyadav83/HireSense-App/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140416.png)
+![2](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140623.png)
+![3](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140453.png)
+![4](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140752.png)
+![5](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140818.png)
+![6](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-26%20160933.png)
+![7](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140914.png)
+![8](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140942.png)
+![9](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-26%20161036.png)
+![10](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-26%20161100.png)
+![11](https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-26%20161408.png)
+
