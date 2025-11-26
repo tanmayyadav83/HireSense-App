@@ -30,28 +30,45 @@ This score helps employers quickly identify the best candidates.
 
 # Key Features:
 👨‍💼 Job Seeker:
+
 Register with email OTP verification
+
 Upload resume and apply to job
+
 AI-based match score calculation
+
 View personal applications & statuses
 
 🏢 Employer:
+
 Register/login with OTP
+
 Post jobs with title, description, skills, location, package, vacancies
+
 View applicants for each job
+
 Download resumes
+
 Shortlist / Reject candidates
+
 Activate / Deactivate jobs
 
 🛡️ Admin:
+
 View all users & jobs
+
 Block/Unblock users
+
 Remove accounts
+
 Monitor platform activities
 
 🤖 AI Features:
+
 Uses AffindaAI Resume Parsing API
+
 Extracts: skills, projects, education, experience, summary
+
 Computes AI Match Score (%)
 
 # Tech Stack:
@@ -59,19 +76,27 @@ Computes AI Match Score (%)
 Frontend:
 
 HTML
+
 CSS
+
 JavaScript
+
 Bootstrap 5
 
 Backend:
 
 Java
+
 JSP + Servlets
+
 Apache Tomcat 10
+
 JDBC
 
 Database:
 
 MySQL
+
 AI Integration
+
 AffindaAI Resume Parsing API (JSON-based extraction)
