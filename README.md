@@ -4,10 +4,15 @@ HireSense is an intelligent job portal that connects Job Seekers and Employers, 
 It simplifies recruitment by automatically analyzing resumes and generating a match percentage using ApprentAI's Resume Parsing API.
 
 # Table of Contents
+
 Introduction
+
 Features
+
 Tech Stack
+
 How to Run
+
 Project Screenshots
 
 # Introduction
@@ -50,19 +55,23 @@ Extracts: skills, projects, education, experience, summary
 Computes AI Match Score (%)
 
 # Tech Stack:
+
 Frontend:
+
 HTML
 CSS
 JavaScript
 Bootstrap 5
 
 Backend:
+
 Java
 JSP + Servlets
 Apache Tomcat 10
 JDBC
 
 Database:
+
 MySQL
 AI Integration
 AffindaAI Resume Parsing API (JSON-based extraction)
