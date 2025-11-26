@@ -139,3 +139,6 @@ Open:
 http://localhost:2025/hiresenseapp/
 
 # Screenshots:
+
+![login]https://raw.githubusercontent.com/tanmayyadav83/HireSense-App/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140416.png
+![picture]https://github.com/tanmayyadav83/HireSense-App/blob/241bb485cdb477d83d6092392107d1f6ef920ea1/Screenshot%202025-11-19%20140416.png
