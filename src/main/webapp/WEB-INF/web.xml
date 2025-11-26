@@ -1,0 +1,216 @@
+<web-app>
+  <display-name>hiresenseapp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <listener>
+    <listener-class>hiresenseapp.dbutils.AppInitializer</listener-class>
+  </listener>
+  <context-param>
+    <param-name>dbUrl</param-name>
+    <param-value>jdbc:mysql://localhost:3306/hiresense_db</param-value>
+  </context-param>
+  <context-param>
+    <param-name>username</param-name>
+    <param-value>root</param-value>
+  </context-param>
+  <context-param>
+    <param-name>password</param-name>
+    <param-value>root</param-value>
+  </context-param>
+  <context-param>
+    <param-name>appName</param-name>
+    <param-value>HireSense</param-value>
+  </context-param>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.SendRegisterOTPServlet</servlet-class>
+  <servlet-name>SendRegisterOTPServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendRegisterOTPServlet</servlet-name>
+    <url-pattern>/SendRegisterOTPServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.VerifyRegisterOTPServlet</servlet-class>
+  <servlet-name>VerifyRegisterOTPServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VerifyRegisterOTPServlet</servlet-name>
+    <url-pattern>/VerifyRegisterOTPServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.LoginServlet</servlet-class>
+  <servlet-name>LoginServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.EmployerDashboardServlet</servlet-class>
+  <servlet-name>EmployerDashboardServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployerDashboardServlet</servlet-name>
+    <url-pattern>/EmployerDashboardServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.ViewApplicantsServlet</servlet-class>
+  <servlet-name>ViewApplicantsServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewApplicantsServlet</servlet-name>
+    <url-pattern>/ViewApplicantsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.ToggleJobStatusServlet</servlet-class>
+  <servlet-name>ToggleJobStatusServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ToggleJobStatusServlet</servlet-name>
+    <url-pattern>/ToggleJobStatusServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.UserDashboardServlet</servlet-class>
+  <servlet-name>UserDashboardServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserDashboardServlet</servlet-name>
+    <url-pattern>/UserDashboardServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.PostJobServlet</servlet-class>
+  <servlet-name>PostJobServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostJobServlet</servlet-name>
+    <url-pattern>/PostJobServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.UploadResumeServlet</servlet-class>
+  <servlet-name>UploadResumeServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadResumeServlet</servlet-name>
+    <url-pattern>/UploadResumeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.LogoutServlet</servlet-class>
+  <servlet-name>LogoutServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.ApplyJobServlet</servlet-class>
+  <servlet-name>ApplyJobServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApplyJobServlet</servlet-name>
+    <url-pattern>/ApplyJobServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.DownloadResumeServlet</servlet-class>
+  <servlet-name>DownloadResumeServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadResumeServlet</servlet-name>
+    <url-pattern>/DownloadResumeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.AdminPanelServlet</servlet-class>
+  <servlet-name>AdminPanelServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminPanelServlet</servlet-name>
+    <url-pattern>/AdminPanelServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.BlockUserServlet</servlet-class>
+  <servlet-name>BlockUserServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BlockUserServlet</servlet-name>
+    <url-pattern>/BlockUserServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-class>hiresenseapp.controllers.RemoveJobServlet</servlet-class>
+  <servlet-name>RemoveJobServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveJobServlet</servlet-name>
+    <url-pattern>/RemoveJobServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.ResumeDetailServlet</servlet-class>
+  <servlet-name>ResumeDetailServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResumeDetailServlet</servlet-name>
+    <url-pattern>/ResumeDetailServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.UnblockUserServlet</servlet-class>
+  <servlet-name>UnblockUserServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UnblockUserServlet</servlet-name>
+    <url-pattern>/UnblockUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.UpdateApplicationStatusServlet</servlet-class>
+  <servlet-name>UpdateApplicationStatusServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateApplicationStatusServlet</servlet-name>
+    <url-pattern>/UpdateApplicationStatusServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-class>hiresenseapp.controllers.AdminLoginServlet</servlet-class>
+  <servlet-name>AdminLoginServlet</servlet-name>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error.jsp</location>
+</error-page>
+<error-page>
+    <exception-type>java.lang.Exception</exception-type>
+    <location>/error.jsp</location>
+</error-page>
+  
+  
+  
+  
+</web-app>

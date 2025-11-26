@@ -1,0 +1,126 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Seoge UI", sans-serif;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content{
+	flex: 1;
+}
+
+/* Fix footer position only for index.jsp */
+.index-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full height */
+}
+
+.index-page main {
+  flex: 1; /* pushes footer down */
+}
+
+
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+.btn-cta {
+  background-color: white;
+  color: #4e54c8;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+.btn-cta:hover {
+  background-color: white;
+  color: rgb(216, 74, 74);
+}
+
+.feature-card {
+  background: rgba(243, 237, 237, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #ddd;
+}
+
+.btn-login {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.btn-login:hover {
+  color: #2c2c84;
+  background-color: white;
+}
+
+.job-form-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  backdrop-filter: blur(50px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+input.form-control {
+    color: black !important;
+}
+
+
+
+footer {
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+}
